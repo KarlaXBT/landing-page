@@ -1,0 +1,93 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* general styles */
+body {
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+/* generic container */
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding-inline: 2rem;
+}
+
+/* header */
+.header {
+  background-color: #1f2937;
+  color: #fff;
+}
+
+.header__content {
+  display: flex;
+  padding: 1.5rem 0;
+}
+
+.header__logo {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.header__nav {
+  margin-left: auto;
+}
+
+.header__nav-list {
+  display: flex;
+  gap: 2rem;
+}
+
+.header__link {
+  font-size: 1.6rem;
+  color: #e5e7eb;
+}
+
+/* hero section */
+
+.hero {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 8rem 0;
+}
+
+.hero__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__text {
+  max-width: 500px;
+}
+
+.hero__title {
+  font-size: 4.8rem;
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+
+.hero__subtitle {
+  font-size: 1.8rem;
+  color: #e5e7eb;
+  margin-bottom: 2rem;
+}
+
+.hero__button {
+  display: inline-block;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  padding: 0.5rem 3rem;
+  border-radius: 9px;
+}
+
+.hero__image {
+  background-color: #999;
+  height: 250px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
