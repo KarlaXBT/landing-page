@@ -91,3 +91,94 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+/* info section */
+
+.info {
+  padding: 3rem 0 6rem 0;
+}
+
+.info__heading {
+  text-align: center;
+  font-size: 3.6rem;
+  color: #1f2937;
+  font-weight: 900;
+  margin-bottom: 5rem;
+}
+
+.info__cards {
+  display: flex;
+  gap: 8rem;
+  justify-content: center;
+  padding: 0 8rem;
+  flex-wrap: wrap;
+}
+
+.info__card {
+  max-width: 15rem;
+}
+
+.info__image {
+  height: 15rem;
+  width: 15rem;
+  border: 3px solid #3882f6;
+  border-radius: 9px;
+  margin: 0 auto 10px;
+}
+
+.info__subtext {
+  /* font-size: 14px; */
+  color: #4b5563;
+}
+
+/* quote section */
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote-padding {
+  padding: 10rem 4rem 8rem 14rem;
+}
+
+.quote__text {
+  font-size: 3.6rem;
+  font-style: italic;
+  font-weight: lighter;
+  margin-bottom: 3rem;
+  line-height: 1.3;
+}
+
+.quote__author {
+  text-align: right;
+  font-size: 2rem;
+}
+
+/* cta section */
+
+.cta__box {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 5rem 10rem;
+  border-radius: 9px;
+  margin: 8rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.cta__button {
+  margin-left: auto;
+  border: 2px solid #fff;
+  padding: 0.5rem 3rem;
+  border-radius: 9px;
+}
+
+/* footer section */
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 3rem 0;
+  font-size: 1.4rem;
+}
